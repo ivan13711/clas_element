@@ -1,0 +1,164 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.body {
+background: url(../img/fonstola.jpg) #deecf9 no-repeat center left ;
+background-size: cover;
+}
+
+.content {
+  padding: 20px;
+  font-family: verdana;
+  font-size: 1rem;
+  line-height: 1.3rem;
+}
+
+.nav_bar{
+
+  border:2px solid #78C0E0;
+  border-radius: 15px;
+  width: 750px;
+  background: url(../img/flower.png) no-repeat right;
+  background-size: contain;
+
+}
+.nav_bar ul{
+  width: 200px;
+
+}
+.ul1{
+margin-right: calc(100% - 500px);
+float: right;
+
+}
+.ul2{
+}
+.main_cont{
+  background-color: rgba(206, 224, 247, 0.5);
+  margin-left: -30px;
+  margin-right: calc(100% - 1000px);
+  margin-top: 20px;
+padding: 50px;
+}
+.no_decor{
+  text-decoration: none;
+}
+.welcome_text{
+  margin-top: 60px;
+
+}
+
+
+.welcome_text h1{
+  font-size: 2rem;
+
+}
+
+.artic_1{
+  border: 1px solid #aaaaaa;
+  width: 580px;
+  margin-left: 115px;
+  padding: 10px;
+  font-family: Segoe UI;
+
+}
+.headline{
+display: inline-block ;
+color:#3943B7;
+text-transform: uppercase;
+font-size: 1.5rem;
+width: 250px;
+margin-top: 10px;
+margin-bottom: 10px;
+margin-left:165px;
+}
+.news{
+  text-indent: 40px;
+text-align: justify;
+line-height: 1.6rem;
+letter-spacing: 0.2rem;
+}
+
+.mailing{
+  border:1px dashed  #78C0E0;
+  border-radius: 15px;
+
+ text-align: right;
+ padding-right: 15px;
+
+}
+#sub_mail{
+   margin-left: calc(100% - 550px);
+}
+input[type="submit"]{
+  width: 125px;
+}
+input[type="Email"]{
+  width: 200px;}
+footer{
+ font-style: italic;
+ font-size: 0.8rem;
+}
+footer p {
+  margin-bottom: 0;
+}
+.white_fon{
+  background-color: white;
+}
+a:link{
+  color:#0000FF;
+}
+a:visited{
+  color:#0000FF;
+}
+
+.nav_bar a:hover{
+  color: #800080;
+}
+.nav_bar a:active{
+  color:#E32636;
+}
+.artic_1 p:hover{
+  text-shadow: 2px 2px 4px;
+}
+.news::first-line{
+  font-style: italic;
+}
+
+.news::first-letter{
+font-size: 4rem;
+font-style: normal;
+}
+.sub_artic:hover{
+  text-decoration: underline;
+}
+.sub_artic:active{
+  color: #800080;
+}
+.welcome_img:hover{
+  width: 1000px;
+}
+#s1:target::before{
+  content: "\2192";
+}
+
+.nav_bar li:nth-child(odd){
+color: yellow;
+}
+
+
+
+
+ #s8:target::first-letter{
+   background-color: red;
+ }
+p:first-of-type{
+    background-color: yellow;
+}
+#s3:target::after{
+  content:"\263b" ;
+
+}
+#s11:target{
+  background-color: red;}
